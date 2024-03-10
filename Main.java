@@ -14,7 +14,7 @@ public class Main {
 
         course course2 = new course("C#");
         course2.addStudent(student2);
-        course2.addStudent(student4);SSS
+        course2.addStudent(student4);
         course2.addStudent(student5);
 
         System.out.println("student Name\tstudentDept\t Sem\tCourses");
