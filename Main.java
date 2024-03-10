@@ -2,11 +2,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        student student1 = new student(1, "Puja", "BCA", 90);
-        student student2 = new student(4, "Sudo", "MCA", 30);
-        student student3 = new student(1, "Bhalu", "BCA", 40);
-        student student4 = new student(4, "Chetena", "MCA", 20);
-        student student5 = new student(4, "Momo", "MCA", 60);
+        student student1 = new student(1, "Dayanad", "BCA", 90);
+        student student2 = new student(4, "Akshay", "bca", 30);
+        student student3 = new student(1, "Veeresh", "B.sc", 40);
+        student student4 = new student(4, "shivaraj", "bca", 20);
+        student student5 = new student(4, "Sourab", "bca", 60);
 
         course course1 = new course( "Python");
         course1.addStudent(student1);
