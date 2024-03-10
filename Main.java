@@ -8,13 +8,13 @@ public class Main {
         student student4 = new student(4, "shivaraj", "bca", 20);
         student student5 = new student(4, "Sourab", "bca", 60);
 
-        course course1 = new course( "Python");
+        course course1 = new course( "Dev_ops");
         course1.addStudent(student1);
         course1.addStudent(student3);
 
-        course course2 = new course("Java");
+        course course2 = new course("C#");
         course2.addStudent(student2);
-        course2.addStudent(student4);
+        course2.addStudent(student4);SSS
         course2.addStudent(student5);
 
         System.out.println("student Name\tstudentDept\t Sem\tCourses");
